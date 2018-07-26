@@ -18,7 +18,7 @@ public class CheckLambdaEvents extends TestBase {
 
     @Test
     @Description("Check that lambda is triggered when file uploaded to S3 bucket")
-    public void checkLambdaCalled(String filePath) throws Exception {
+    public void checkLambdaCalled() throws Exception {
 
         // 1 - Upload file to S3 bucket
         String keyName = uploadFileToS3(region, bucketName, filePath);
