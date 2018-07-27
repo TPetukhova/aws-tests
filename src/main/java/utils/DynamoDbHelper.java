@@ -84,7 +84,7 @@ public class DynamoDbHelper {
     public static List<Item> searchDynamoDbEntry(String region, String tableName, String keyName) throws InterruptedException {
 
         // to do a proper waiting
-        Thread.sleep(3000);
+        Thread.sleep(5000);
 
         List<Item> entries = new ArrayList<>();
 
